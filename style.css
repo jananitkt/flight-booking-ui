@@ -1,0 +1,68 @@
+/* Background and Layout */
+body {
+  background-color: #f8f9fa;
+}
+
+/* Form Card */
+.booking-form {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+/* Autocomplete Dropdown Wrapper */
+.autocomplete-wrapper {
+  position: relative;
+}
+
+/* Dropdown Styles */
+.autocomplete-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 1000;
+  display: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Each dropdown item */
+.autocomplete-list li {
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Highlighted (arrow key selected) item */
+.autocomplete-list li.active,
+.autocomplete-list li:hover {
+  background-color: #e9f1fb;
+}
+
+/* Card Results Styling */
+.card {
+  border: 1px solid #e2e2e2;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Mobile responsiveness fixes */
+@media (max-width: 576px) {
+  .booking-form {
+    padding: 1rem;
+  }
+
+  .autocomplete-list {
+    font-size: 14px;
+  }
+}
