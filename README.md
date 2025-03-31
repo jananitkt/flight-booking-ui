@@ -12,7 +12,7 @@ This is a **responsive flight booking interface** built with HTML, CSS, JavaScri
 
 ## 📸 Preview
 
-<img src="https://github.com/jananitkt/flight-booking-ui/preview.png" alt="Flight Booking UI Screenshot" width="100%" />
+<img src="https://github.com/jananitkt/flight-booking-ui/blob/main/preview.png" alt="Flight Booking UI Screenshot" width="100%" />
 
 ---
 
