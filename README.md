@@ -98,7 +98,7 @@ flight-booking-ui/
 ## 📬 Contributing
 
 Found a bug or want to contribute? Pull requests are welcome!  
-You can also [open an issue](https://github.com/your-username/flight-booking-ui/issues) with ideas or suggestions.
+You can also [open an issue](https://github.com/jananitkt/flight-booking-ui/issues) with ideas or suggestions.
 
 ---
 
